@@ -1,3 +1,7 @@
-version 1.0.{build}
-build_script
-- cmd build
+---
+build_script:
+  - cmd: build.cmd
+version: 1.0.{build}
+artifacts:
+  - path: bin
+    name: bin
