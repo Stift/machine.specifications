@@ -261,8 +261,9 @@ obj/
 *.userprefs
 
 ##Paket
-paket.lock
+.paket/paket.exe
+packages/*
 
 ##FAKE
 .fake/
-
+TestResults.xml
